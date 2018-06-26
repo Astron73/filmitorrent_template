@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FilmiTorrent</title>
+    <link rel="shortcut icon" href="img/favicon_torrent.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style_main.css">
+	<script src="js/jquery-3.3.1.js"></script>
+    <script src="js/my.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <div class="day">
+                    <script type="text/javascript" src="js/day.js">
+                    </script>
+                </div>
+                <div class="search">
+                    
+                    <div id="webSearch"><input  type="text" placeholder="    Пошук по сайту"></div>
+                    <div id="imgBtn"></div>
+                    
+                </div>
+            </div>
+            <div class="login">
+                <div class="loginMenu">
+                    <div class="loginLink"> <a href="index_login.html">Реєстрація</a></div>
+                    <div class="formField loginBg">
+                        <input class="field" id="login" type="text" value="  - - -" placeholder="  login"> </div>
+                    <div class="formField passBg">
+                        <input class="field" id="pass" type="password" value="  ---" placeholder="  password"> </div>
+                    <div class="enter_wrap">
+                        <input class="enter" id="enter" type="submit" value=""> </div>            
+                    <div class="checkBox">
+                        <label>
+                            <input type="checkbox">Чужий комп'ютер</label>
+                    </div>
+                    <div class="loginLink"><a href="index_login.html">Я забув пароль!</a></div>
+                </div>
+            </div>
+            <div class="speedBar">
+                <div><a href="index_main.html">Торрент фільми</a></div>
+            </div>
+            <div class="container">
+                <div class="right">
+                    <div class="navGenreTopic">
+                        <div class="nameTopic">Навігація за жанром</div>
+                        <div class="div_li_wrap">
+                            <div class="div_li">
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Комедії</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Бойовик</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Фантастика</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Мелодрама</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Фентезі</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Воєнний</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Сімейний</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Історія</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Вестерн</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Мюзикл</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Аніме</a></div>
+                            </div>
+                            <div class="div_li">
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Жахи</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Мультфільми</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Наше кіно</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Триллер</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Пригоди</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Кримінал</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Детектив</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Біографія</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Музика</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Спорт</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Документальний</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Серіали</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="menuTopic">
+                        <div class="nameTopic">Меню</div>
+                        <div class="div_li_wrap">
+                            <div class="div_li">
+                                <div><a href="http://filmitorrent.org/tags/2017/">Новинки 2017</a></div>
+                                <div><a href="http://filmitorrent.org/tags/2017/">Топ 250 КиноПоиск</a></div>
+                                <div><a href="http://filmitorrent.org/tags/2017/">Категорії</a></div>
+                            </div>
+                            <div class="div_li">
+                                <div><a href="http://filmitorrent.org/tags/2017/">Фільми 2016</a></div>
+                                <div><a href="http://filmitorrent.org/tags/2017/">3D</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BestAndNew">
+                        <div class="BestAndNewTopics"><div>Найкращі фільми за місяць</div></div>
+                        
+                            <div class="bestAndNew_li">
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                            
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                            </div>
+                    
+                    </div>
+                    <div class="clear"></div>
+                    <div class="Vk_wrap">
+                        <div class="nameTopic">Ми Вконтакті</div>
+                        <div class="Vk_link"><a href="vk.com">vk.com/FilmiTorrent</a></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="BestAndNew">
+                        <div class="BestAndNewTopics"><div>Останні додані</div></div>
+                        <div class="bestAndNew_li">
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                            
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                                <div><a href="http://filmitorrent.org/tags/%EA%EE%EC%E5%E4%E8%FF/">Драма</a></div>
+                          </div>
+                    </div>
+<!--                    <div class="">-->
+                        <div class="nameTopic">Цікаве</div>
+                        <div class='news'><!-- Finance.ua Currency Banks Informer --> 
+<div class="fcia_content"><a href="https://finance.ua/ru/currency" target="_top" title="Finance.ua" class="fcia">Курс валют на портале Finance.ua</a><script>var fcia_region="ua",fcia_lang="ua", fcia_height="400", fcia_width="290"</script><script type="text/javascript" charset="utf-8" src="https://finance.ua/script/informer-currency-code.js"></script></div>
+<!-- Finance.ua Currency Banks Informer --></div>
+<!--                    </div>-->
+                    <div class="clear"></div>
+                </div>
+                <div class="middle">
+                    <div class="navi">
+                        <div class="navi_middle">
+                            <div> <a href="http://filmitorrent.org/" target="_blank">Головна</a> </div>
+                            <div> <a href="http://filmitorrent.org/">Як тут скачувати?</a> </div>
+                            <div> <a href="http://filmitorrent.org/">ТОП 100</a> </div>
+                            <div> <a href="http://filmitorrent.org/">Правовласникам</a> </div>
+                            <div> <a href="http://filmitorrent.org/">Як з нами зв'язатись</a> </div>
+                        </div>
+                    </div>
+                    <div class="main_content">
+                        <div class="post">
+                            <div class="post_title"><a href="http://filmitorrent.org/fantastika/2978-geoshtorm-2017.html">Геошторм</a></div>
+                            <div class="data">
+                                <div class="info">17-01-2018, 00:28</div>
+                                <div class="info">Якість: HD</div>
+                                <div class="info">Коментарів: 58</div>
+                                <div class="rating">
+                                <img src="img/rating.gif" hspace="5" title="Рейтинг фильма на КиноПоиске" alt="Рейтинг КП"></div>
+                                <div class="like_cnt">
+                                    <div class="like_n" id="like_n"><a href="#"  title="Фильм не нравится" onclick="orating(2978,0);return false;"></a></div>
+                                    <div class="like_res"><a  id="like_res" href="#"  onclick="ostats(2978,1,true);return false;">+1447</a></div>
+                                    <div class="like_p" id="like_p"><a href="#"  title="Фильм понравился" onclick="orating(2978,1);return false;"></a></div>
+                                </div>
+                            </div>
+                            <div class="post_story">
+                                <div class="post_img"><img src="pictures/geostorm.jpg" width="120px" height="177px" alt=""></div>
+                                <div class="post_desc">
+                                    <div><span class="bold">Країна:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> США</a></div>
+                                    <div><span class="bold">Слоган:</span><span class="description"> «Є речі, які не можна контролювати»</span></div>
+                                    <div><span class="bold">Жанр:</span> <span class="description"> фантастика, бойовик, трилер</span></div>
+                                    <div><span class="bold">Актори:</span><span class="description">   Джерард Батлер, Джим Стерджесс, Еббі Корніш, Александра Марія Лара, Дениел Ву, Еухенио Дербес, Амр Вакед, Эдеперо Одуйе, Енді Гарсія, Ед Харріс</span></div>
+                                    <div><span class="bold">Режисер:</span> <span class="description"> Дін Девлін</span></div>
+                                    <div><span class="bold">Час:</span><span class="description"> 109 хв. / 01:49</span></div>
+                                    <div><span class="bold">Рік:</span><span class="description"> 2017</span></div>
+                                </div>
+                            </div>
+                            <div class="post_data">
+                                <div><span class="bold">Категорія:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Фантастика</a></div>
+                                <div><span class="bold">Автор:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Leha</a></div>
+                                <div class="download">
+                                <a href="http://filmitorrent.org/triller/2979-suburbikon-2017.html">Завантажити</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post_title"><a href="http://filmitorrent.org/fantastika/2978-geoshtorm-2017.html">Той, що біжить по лезу 2049</a></div>
+                            <div class="data">
+                                <div class="info">2-01-2018, 07:44</div>
+                                <div class="info">Якість: HD</div>
+                                <div class="info">Коментарів: 140</div>
+                                <div class="rating">
+                                <img src="img/bladeRuner.gif" hspace="5" title="Рейтинг фильма на КиноПоиске" alt="Рейтинг КП"></div>
+                                <div class="like_cnt">
+                                    <div class="like_n" id="like_n"><a href="#"  title="Фильм не нравится" onclick="orating(2978,0);return false;"></a></div>
+                                    <div class="like_res"><a  id="like_res" href="#"  onclick="ostats(2978,1,true);return false;">+1447</a></div>
+                                    <div class="like_p" id="like_p"><a href="#"  title="Фильм понравился" onclick="orating(2978,1);return false;"></a></div>
+                                </div>
+                            </div>
+                            <div class="post_story">
+                                <div class="post_img"><img src="pictures/blade_runner.jpg" width="120px" height="177px" alt=""></div>
+                                <div class="post_desc">
+                                    <div><span class="bold">Країна:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> США, Великобританія, Угорщина, Канада</a></div>
+                                    <div><span class="bold">Жанр:</span> <span class="description"> фантастика, драма, трилер, детектив</span></div>
+                                    <div><span class="bold">Актори:</span><span class="description">   Райан Гослінг, Харісон Форд, Анна де Армас, Сівільйа Хукс, Карла Юрі, Дейв Батиста</span></div>
+                                    <div><span class="bold">Режисер:</span> <span class="description"> Дені Вільнеув</span></div>
+                                    <div><span class="bold">Час:</span><span class="description"> 164 хв. / 02:44</span></div>
+                                    <div><span class="bold">Рік:</span><span class="description"> 2017</span></div>
+                                </div>
+                            </div>
+                            <div class="post_data">
+                                <div><span class="bold">Категорія:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Фантастика</a></div>
+                                <div><span class="bold">Автор:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Leha</a></div>
+                                <div class="download">
+                                <a href="http://filmitorrent.org/triller/2979-suburbikon-2017.html">Завантажити</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post_title"><a href="http://filmitorrent.org/fantastika/2978-geoshtorm-2017.html">Кінгсмен: Золоте кільце</a></div>
+                            <div class="data">
+                                <div class="info">29-12-2017, 00:23</div>
+                                <div class="info">Якість: HD</div>
+                                <div class="info">Коментарів: 43</div>
+                                <div class="rating">
+                                <img src="img/kingsman.gif" hspace="5" title="Рейтинг фильма на КиноПоиске" alt="Рейтинг КП"></div>
+                                <div class="like_cnt">
+                                    <div class="like_n" id="like_n"><a href="#"  title="Фильм не нравится" onclick="orating(2978,0);return false;"></a></div>
+                                    <div class="like_res"><a  id="like_res" href="#"  onclick="ostats(2978,1,true);return false;">+1447</a></div>
+                                    <div class="like_p" id="like_p"><a href="#"  title="Фильм понравился" onclick="orating(2978,1);return false;"></a></div>
+                                </div>
+                            </div>
+                            <div class="post_story">
+                                <div class="post_img"><img src="pictures/kingsman2.jpg" width="120px" height="177px" alt=""></div>
+                                <div class="post_desc">
+                                    <div><span class="bold">Країна:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Великобританія, США</a></div>
+                                    <div><span class="bold">Слоган:</span><span class="description"> «Reports of my death have been greatly exaggerated»</span></div>
+                                    <div><span class="bold">Жанр:</span> <span class="description"> пригоди, бойовик, комедія</span></div>
+                                    <div><span class="bold">Актори:</span><span class="description">   Терон Еджерон, Колін Ферт, Марк Стронг, Джуліанна Мур, Холлі Бері, Педро Паскаль, Ченніг Татум, Джеф Бріджес</span></div>
+                                    <div><span class="bold">Режисер:</span> <span class="description"> Метю Воон</span></div>
+                                    <div><span class="bold">Час:</span><span class="description"> 141 хв. / 02:21</span></div>
+                                    <div><span class="bold">Рік:</span><span class="description"> 2017</span></div>
+                                </div>
+                            </div>
+                            <div class="post_data">
+                                <div><span class="bold">Категорія:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Бойовик</a></div>
+                                <div><span class="bold">Автор:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Leha</a></div>
+                                <div class="download">
+                                <a href="http://filmitorrent.org/triller/2979-suburbikon-2017.html">Завантажити</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post_title"><a href="http://filmitorrent.org/fantastika/2978-geoshtorm-2017.html">Дюнкерк</a></div>
+                            <div class="data">
+                                <div class="info">8-12-2017, 09:18</div>
+                                <div class="info">Якість: HD</div>
+                                <div class="info">Коментарів: 124</div>
+                                <div class="rating">
+                                <img src="img/dunkerk.gif" hspace="5" title="Рейтинг фильма на КиноПоиске" alt="Рейтинг КП"></div>
+                                <div class="like_cnt">
+                                    <div class="like_n" id="like_n"><a href="#"  title="Фильм не нравится" onclick="orating(2978,0);return false;"></a></div>
+                                    <div class="like_res"><a  id="like_res" href="#"  onclick="ostats(2978,1,true);return false;">+1447</a></div>
+                                    <div class="like_p" id="like_p"><a href="#"  title="Фильм понравился" onclick="orating(2978,1);return false;"></a></div>
+                                </div>
+                            </div>
+                            <div class="post_story">
+                                <div class="post_img"><img src="pictures/dunkerk.jpg" width="120px" height="177px" alt=""></div>
+                                <div class="post_desc">
+                                    <div><span class="bold">Країна:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Великобританія, Нідерланди, Франція, США</a></div>
+                                    <div><span class="bold">Слоган:</span><span class="description"> «Подія, які змінила світ»</span></div>
+                                    <div><span class="bold">Жанр:</span> <span class="description"> воєнний, драма, історія</span></div>
+                                    <div><span class="bold">Актори:</span><span class="description">   Фін Уайтхед, Джек Лауден, Гарі Стайлс, Кеннет Брана</span></div>
+                                    <div><span class="bold">Режисер:</span> <span class="description"> Крістофер Нолан</span></div>
+                                    <div><span class="bold">Час:</span><span class="description"> 106 хв. / 01:46</span></div>
+                                    <div><span class="bold">Рік:</span><span class="description"> 2017</span></div>
+                                </div>
+                            </div>
+                            <div class="post_data">
+                                <div><span class="bold">Категорія:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Драма</a></div>
+                                <div><span class="bold">Автор:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Leha</a></div>
+                                <div class="download">
+                                <a href="http://filmitorrent.org/triller/2979-suburbikon-2017.html">Завантажити</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post_title"><a href="http://filmitorrent.org/fantastika/2978-geoshtorm-2017.html">Тілоохоронець кіллера</a></div>
+                            <div class="data">
+                                <div class="info">10-11-2017, 23:41</div>
+                                <div class="info">Якість: HD</div>
+                                <div class="info">Коментарів: 45</div>
+                                <div class="rating">
+                                <img src="img/rat_killerSecurity.gif" hspace="5" title="Рейтинг фильма на КиноПоиске" alt="Рейтинг КП"></div>
+                                <div class="like_cnt">
+                                    <div class="like_n" id="like_n"><a href="#"  title="Фильм не нравится" onclick="orating(2978,0);return false;"></a></div>
+                                    <div class="like_res"><a  id="like_res" href="#"  onclick="ostats(2978,1,true);return false;">+1447</a></div>
+                                    <div class="like_p" id="like_p"><a href="#"  title="Фильм понравился" onclick="orating(2978,1);return false;"></a></div>
+                                </div>
+                            </div>
+                            <div class="post_story">
+                                <div class="post_img"><img src="pictures/killer_security.jpg" width="120px" height="177px" alt=""></div>
+                                <div class="post_desc">
+                                    <div><span class="bold">Країна:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> США, Китай, Болгарія, Нідерланди</a></div>
+                                    <div><span class="bold">Слоган:</span><span class="description"> «Коли новий клієнт - давній ворог»</span></div>
+                                    <div><span class="bold">Жанр:</span> <span class="description"> комедія, бойовик</span></div>
+                                    <div><span class="bold">Актори:</span><span class="description">   Райан Рейнольдс, Семюель Л. Джексон, Елоді Юнг, Сальма Хаєк, Гері Олдман </span></div>
+                                    <div><span class="bold">Режисер:</span> <span class="description"> Патрік Хюз</span></div>
+                                    <div><span class="bold">Час:</span><span class="description"> 118 хв. / 01:58</span></div>
+                                    <div><span class="bold">Рік:</span><span class="description"> 2017</span></div>
+                                </div>
+                            </div>
+                            <div class="post_data">
+                                <div><span class="bold">Категорія:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Фантастика</a></div>
+                                <div><span class="bold">Автор:</span><a href="http://filmitorrent.org/tags/%D1%D8%C0/"> Leha</a></div>
+                                <div class="download">
+                                <a href="http://filmitorrent.org/triller/2979-suburbikon-2017.html">Завантажити</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/like_cnt.js">
+                    </script>
+    
+</body>
+
+</html>

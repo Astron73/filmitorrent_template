@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    min-height: 100px;
+    max-height: 200px;
+    background-color: antiquewhite;
+	padding:20px;
+}
+.clear{
+    clear: both;
+}.right{
+    float: right;
+    outline: 2px solid green;
+    width: 30%;
+}
+.middle{
+    float: left;
+    outline: 2px solid yellow;
+    width: 70%;
+}
+.menu_wrap{
+display: flex;
+outline: 2px solid red;
+}
+.first {
+   display: flex;
+  flex-direction: column;
+   margin: 5px 10px;
+   outline: 2px solid green;
+   width:135px;
+   }
+.first div {
+
+	width: 130px;
+    /* list-style-type: none; */
+    margin: 5px 5px;
+    outline: 2px solid black;
+}
+/* .first div:hover .checked{
+display: block;
+background-color:red;
+}
+.checked{
+display: none;
+position:absolute;
+} */
+
+
+
+
+

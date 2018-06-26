@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/body_bg.jpg)  no-repeat top center fixed;
+}
+
+
+/*----------Обгортка контенту----------*/
+
+.wrapper {
+    position: absolute;
+    top: 200px;
+    left: 14%;
+    /*    margin-left: -500px;*/
+    /*    height: 2000px;*/
+    min-width: 500px;
+    width: 1000px;
+    max-width: 1300px;
+/*    background-color: brown;*/
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    height: 70px;
+    background-color: blue;
+    margin: 0;
+    background: url(../img/bg_head.png);
+    border: 1px solid black;
+    /*    border: 1px solid blue;*/
+}
+
+.login {
+    background: url(../img/login.png);
+    margin: 0;
+    /*    border: 1px solid blue;*/
+}
+
+.speedBar {
+    height: 22px;
+    margin: 0;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    background: url(../img/speedbar.png) no-repeat ;
+    /*    border: 1px solid blue;*/
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #D2D2D2;
+    padding: 10px;
+/*    border: 1px solid antiquewhite;*/
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+width: 1000px;
+    height: 60px;
+    background: url(../img/footer.png) no-repeat;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*-----Кінець опису обгорткти контенту---*/
+
+
+/*---------Опис блоків контенту--------*/
+
+
+/*--опис блоку class="header"--*/
+
+.day {
+/*    outline: 1px solid black;*/
+    height: 25px;
+    text-align: center;
+    color: rgba(57, 105, 105, 0.97);
+    padding: 6px 0 0 0 ;
+    font: italic bold 13px "Arial", Tahoma sans-serif;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    width: 620px;
+    margin: 0 190px;
+    align-content: center;
+    background: url(../img/search.png) no-repeat;
+}
+#webSearch {
+/*    margin: 14px 225px;*/
+    line-height: 18px;
+    width: 524px;
+    padding: 11px 0 0 15px;
+}
+#webSearch input{
+    line-height: 18px;
+    width: 524px;
+    border: none;
+    background-color: transparent;
+}
+#imgBtn {
+    height: 22px;
+    width: 72px;
+    margin: 9px 0 0 0 ;
+    background: url(../img/searchbt.png) 0 0 no-repeat;
+}
+#imgBtn:hover {
+        background: url(../img/searchbt.png) 0 -22px no-repeat;
+/*    background: url(../img/hover.png);*/
+}
+
+/*------опис блоку class="loginMenu"-----*/
+
+.loginMenu {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0276aa;
+    font: bold 13px Palatino Linotype;
+}
+
+.loginMenu div {
+    margin-left: 15px;
+    height: 25px;
+    /*    outline: 3px solid rgb(54, 232, 12);*/
+}
+
+.formField {
+    margin-top: 3px;
+    padding-left: 50px;
+    
+}
+.passBg{
+    background: url(../img/passwordbt.png) no-repeat;
+}
+.loginBg{
+    background: url(../img/loginbt.png) no-repeat;
+}
+.formField .field {
+    margin: 4px 0 0 0;
+    padding-left: 8px;
+    width: 96px;
+    background-color: transparent;
+    border: none;
+    color: floralwhite;
+}
+.formField .field:focus{
+    border: none;
+/*    box-shadow: 0 0 0 black;*/
+}
+
+.enter {
+    width: 54px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    background: url(../img/enter.png) top no-repeat;
+    }
+.enter:hover{
+    background: url(../img/enter.png) 0 -24px no-repeat;
+}
+.loginMenu .checkBox{
+  padding-top: 15px;
+    margin-left: 0px;
+}
+.loginMenu a{
+    color: #0276aa;
+    font: bold 14px Palatino Linotype;
+}
+.loginMenu a:hover{
+color: floralwhite;    
+}
+.checkBox label:hover{
+color: floralwhite; 
+}
+
+/*------кінець опису блоку class="loginMenu"-----*/
+
+
+/*------опис блоку class="speedBar"-----*/
+
+.speedBar div {
+    margin: 1px auto auto 50px;
+    font: bold 13px Palatino Linotype;
+}
+.speedBar div a{
+    color: floralwhite;
+}
+.speedBar div a:hover{
+    color: black;
+}
+/*------кінець опису блоку class="speedBar"-----*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*---Опис  блоку з class="right"----*/
+
+.right {
+/*    float: right;*/
+    width: 300px;
+    height: 100%;
+    background-color: #363636;
+}
+
+.nameTopic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    background-image: url(../img/colorstrip.png);
+    background-color: #363636;
+    font: bold 16px Palatino Linotype;
+}
+
+.BestAndNew{
+    width: 100%;
+    background: url(../img/colorblock.png) top left repeat;
+}
+.BestAndNewTopics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-top: 5px;
+    background-image: url(../img/whitestrip.png);
+    font: bold 16px Palatino Linotype;
+}
+.BestAndNewTopics div{
+    display: flex;
+    height: 28px;
+    margin-left: 15px;
+}
+.bestAndNew_li{
+    display: flex;
+    flex-direction: column;
+}
+.bestAndNew_li div{
+    display: flex;
+    background: url(../img/topli.png) 5px 5px no-repeat;
+    border-bottom: 1px solid #4990b5;
+}
+.bestAndNew_li div a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    padding-left: 25px;
+    font: 13px Tahoma;
+    color: floralwhite;
+}
+.bestAndNew_li div:hover{
+    background-color: #788ae2;
+}
+
+.Vk_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    height: 30px;
+}
+.Vk_link a {
+    padding-left: 15px;
+    font: 15px Tahoma;
+    color: floralwhite;
+}
+.Vk_link:hover{
+    background-color: #0b0808;
+}
+
+.div_li_wrap {
+    /*.first*/
+    display: flex;
+}
+.div_li {
+    /*.first*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 150px;
+}
+.div_li div {
+    display: flex;
+    height: 25px;
+    margin: 0;
+    border-bottom: 1px ridge #453c3c;
+    background: url(../img/menu.png) 0 0 no-repeat;
+}
+.div_li div a{
+    display: flex;
+    height: 23px;
+    width: 140px;
+    padding-left: 25px;
+    align-items: center;
+    color: rgba(184, 212, 212, 0.97);
+    font: 13px Tahoma;
+}
+.div_li div:hover{
+    background: url(../img/menu.png) 0 -25px no-repeat;
+}
+.news{
+    margin: 5px;
+}
+/*Кінець опису блоку з class="right"*/
+
+
+/*Опис блоку з class="middle"*/
+
+
+/*----------початок Меню---------*/
+
+.middle {
+/*    float: left;*/
+    width: 69%;
+   }
+
+.navi_middle {
+/*    background-color: black;*/
+    height: 40px;
+    display: flex;
+    background: url(../img/nav.png) 0 0 repeat-x;
+    border: 1px solid black;
+}
+
+.navi_middle div {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #333333;
+   }
+
+.navi_middle div a{
+    line-height: 40px;
+    margin: 0 14px;
+    text-align: center;
+    color: floralwhite;
+    text-decoration: none;
+    font: bold 14px Palatino Linotype;
+}
+
+.navi_middle div:hover{
+background-color: black;
+cursor: pointer;
+}
+.navi_middle div:hover >a{
+color: #0566a3;
+cursor: pointer;
+}
+
+/*----------кінець Меню---------*/
+
+
+/*--блок з class="main_content"--*/
+
+.post {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+
+.post_title {
+    position: relative;
+    height: 45px;
+    background:url(../img/post-title.png) top no-repeat;
+    
+}
+.post_title a{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font: bold 16px Tahoma;
+    color: #3C3C3C;
+}
+.form_line{
+    color: #404040;
+    background: #f1f7ef;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 1px solid #d1e6ca;
+    border-radius: 7px;
+    font: bold 12px "Arial", Tahoma sans-serif;
+    line-height: 150%;
+    text-align: justify;
+}
+.warn {
+    text-align: center;
+    line-height: 25px;
+    padding-left: 37px;
+    margin-left: 10px;
+    background: url(../img/Warning_Triangle%2024.png) 40px 0 no-repeat;
+}
+.input_reg {
+border: 2px solid #00C3EE;
+    border-radius: 10px;
+    height: 35px;
+    width: 180px;
+    margin-left: 40%;
+    cursor: pointer;
+    font: bold 12px "Arial", Tahoma sans-serif;
+}
+.input_reg:hover{
+    border: 2px solid black;
+    background-color: #b3b3b3;
+
+}
+.input_name {
+    display: inline-block;
+    width: 120px;
+    margin: 0;
+}
+.input_test{
+    margin-left: 125px;
+}
+.login_btn{
+    color: aliceblue;
+    background-color: #1ea4cb;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    height: 22px;
+    font: bold 12px "Arial", Tahoma sans-serif;
+}
+.login_btn:hover{
+   background-color: black;
+}
